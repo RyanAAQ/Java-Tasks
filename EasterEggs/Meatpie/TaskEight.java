@@ -7,8 +7,8 @@ public class TaskEight{
     System.out.println("Enter first number");
     int num = input.nextInt();
 
-    int square = num * num * num;
+    int cube = num * num * num;
 
-    System.out.printf("The cube is %d%n", square);
+    System.out.printf("The cube is %d%n", cube);
     }
 }
