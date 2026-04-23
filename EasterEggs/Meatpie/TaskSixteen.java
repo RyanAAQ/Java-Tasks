@@ -9,6 +9,6 @@ public class TaskSixteen{
 
     int answer = num * 5;
 
-    System.out.printf("Your number multiplied by 5 is %d%n", answer, answer);
+    System.out.printf("Your number multiplied by 5 is %d%n", answer);
     }
 }
