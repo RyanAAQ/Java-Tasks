@@ -9,11 +9,11 @@ import java.util.Scanner;
     int num = input.nextInt();
 
     int sum = 0;
-    int temp = Math.abs(num);
+    int digits = num;
     
-    while (temp > 0) {
-     sum += temp % 10;
-     temp /= 10;
+    while (digits > 0) {
+     sum += digits % 10;
+     digits /= 10;
 }
 
     System.out.printf("Sum of teh digits are %d%n", sum);

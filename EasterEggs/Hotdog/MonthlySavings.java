@@ -5,7 +5,7 @@ import java.util.Scanner;
 
     Scanner input = new Scanner(System.in);
  
-    final double Monthlyrate = 0.003125;
+    double Monthlyrate = 0.003125;
        
     System.out.println("Enter your monthly saving amount ");
     double monthlysavings = input.nextDouble();
