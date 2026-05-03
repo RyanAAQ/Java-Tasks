@@ -16,7 +16,7 @@ public class SumOfDigits{
     
     public static int sumDigits(long n){
     int total = 0;
-        while (n > 0){
+    while (n > 0){
     total += n % 10;
     n /= 10;    
     }
